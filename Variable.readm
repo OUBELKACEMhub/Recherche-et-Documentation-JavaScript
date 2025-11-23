@@ -1,0 +1,31 @@
+Catégorie 1 : Concepts JavaScript de Base()
+resources:(tahajiru.com)
+
+✔Variables( Caractéristiques) ::
+
+var:
+   1-visible dans toute la fonction où elle est déclarée.
+   2-initialisé à undefined
+   3-Peut être redéclarée (mauvaise pratique).
+   4-Peut être réassignée.
+=>Quand utiliser:
+    : à utiliser par défaut lorsque tu ne veux pas que la variable soit réaffectée. Cela rend ton code plus sûr et plus lisible : quand tu vois const,
+     tu sais que la variable ne va pas changer.
+_______________________
+let:
+   0-1-ne Peut pas  être redéclarer
+   1-fonctionne dans { }
+   2-Ne peut pas être redéclarée dans le même bloc.
+   3-Peut être réassignée.
+   4-Plus “propre” et plus prévisible.
+=>Quand utiliser:
+   : à utiliser quand tu as besoin de changer la valeur de la variable plus tard (réaffectation).
+    Par exemple dans des boucles, des conditions, des compteurs.   
+____________________________ 
+const:
+  1-ne Peut pas  être redéclarer
+  2-la variable ne peut pas être réaffectée
+=>Quand utiliser: 
+  de moins en moins utilisé dans le JavaScript moderne. 
+  On le réserve généralement pour du code legacy ou des cas très précis. Il peut causer des erreurs à cause du hoisting et de la portée fonctionnelle plus large.
+   Beaucoup recommandent de l’éviter.      
